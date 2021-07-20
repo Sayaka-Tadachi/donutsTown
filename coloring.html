@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/css/coloring.css">
+  <link rel="stylesheet" href="css/coloring.css">
 </head>
 
 <body>
@@ -18,8 +18,8 @@
       <div id="palette"><br /></div>
       <div class="button-container">
         <blockquote id="tool"><br/>
-          <input type="image" id="pencil" src="/img/donuts/icons8-pencil-48.png" width="35px" class="active" onClick="tool(1)">
-          <input type="image" id="eraser" src="/img/donuts/icons8-eraser-48.png" width="35px" onClick="tool(2)">
+          <input type="image" id="pencil" src="img/donuts/icons8-pencil-48.png" width="35px" class="active" onClick="tool(1)">
+          <input type="image" id="eraser" src="img/donuts/icons8-eraser-48.png" width="35px" onClick="tool(2)">
         </blockquote>
         <blockquote id="penWidth"><br/>
           <button type="button" onClick="setPenSize('20')"><div class="penSize" id="penSizeL"></div></button>
@@ -36,7 +36,7 @@
       </div>
     </div>
 
-  <script src="/js/jquery.js"></script>
+  <script src="js/jquery.js"></script>
   <script type="text/javascript">
 
     var canvas = document.getElementById('canvas');
@@ -61,7 +61,7 @@
       var overCtx = overCanvas.getContext('2d');
 
       var img = new Image();
-      img.src = "/img/donuts/donutOutline.png";
+      img.src = "img/donuts/donutOutline.png";
 
       img.onload = function() {
       overCtx.drawImage(img, 0, 0, 600, 300)
