@@ -18,8 +18,8 @@
       <div id="palette"><br /></div>
       <div class="button-container">
         <blockquote id="tool"><br/>
-          <input type="image" id="pencil" src="/img/donuts/icons8-pencil-48.png" width="35px" class="active" onClick="tool(1)">
-          <input type="image" id="eraser" src="/img/donuts/icons8-eraser-48.png" width="35px" onClick="tool(2)">
+          <input type="image" id="pencil" src="donuts/icons8-pencil-48.png" width="35px" class="active" onClick="tool(1)">
+          <input type="image" id="eraser" src="donuts/icons8-eraser-48.png" width="35px" onClick="tool(2)">
         </blockquote>
         <blockquote id="penWidth"><br/>
           <button type="button" onClick="setPenSize('20')"><div class="penSize" id="penSizeL"></div></button>
@@ -61,7 +61,7 @@
       var overCtx = overCanvas.getContext('2d');
 
       var img = new Image();
-      img.src = "/img/donuts/donutOutline.png";
+      img.src = "donuts/donutOutline.png";
 
       img.onload = function() {
       overCtx.drawImage(img, 0, 0, 600, 300)
