@@ -124,7 +124,7 @@ h2 {
   }
 }
 #section2 {
-  background: url("/img/donuts/donuts.png");
+  background: url("img/donuts/donuts.png");
   animation: move-stripe2 6s infinite linear;
 }
 
