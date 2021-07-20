@@ -2737,4 +2737,4 @@
             iscrollHandler: iscrollHandler
         };
     })();
-})(window, document, jQuery);
+})(window, document, jquery);

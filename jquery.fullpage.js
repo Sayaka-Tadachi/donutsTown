@@ -16,7 +16,7 @@
     } else if (typeof exports === "object" && exports) {
         module.exports = factory(require('jquery'), global, global.document, global.Math);
     } else {
-        factory(jQuery, global, global.document, global.Math);
+        factory(jquery, global, global.document, global.Math);
     }
 })(typeof window !== 'undefined' ? window : this, function($, window, document, Math, undefined) {
     'use strict';
